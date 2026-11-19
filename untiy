@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public abstract class SkillBase : MonoBehaviour
+{
+    public float cooldown;
+    public float manaCost;
+    protected float cdTimer;
+
+    public abstract void CastSkill(GameObject target);
+    public bool IsReady() => cdTimer <= 0;
+    
+    void Update()
+    {
+        if(cdTimer > 0) cdTimer -= Time.deltaTime;
+    }
+}
