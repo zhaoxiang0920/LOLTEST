@@ -1,15 +1,5 @@
-# LOLTEST
-{
-  "skillId": "fiora_q",
-  "name": "破空斩",
-  "cooldown": 16,
-  "manaCost": 25,
-  "range": 400,
-  "dashDistance": 500,
-  "missDamage": 65,
-  "critScale": 1.0,
-  "vulnerableBonus": {
-    "damagePercent": 150,
-    "heal": 30
-  }
-}
+# Unity Single-Player MOBA Demo (Fiora Prototype)
+A simple LOL-style single-player MOBA prototype built on Unity.
+Current progress: Implemented Fiora Q (Lunge) skill logic, damage calculation, vulnerable mark multiplier.
+Plan: Add navmesh movement, AI, fog of war, buff system.
+Collaborate with Devin Max for iterative development.
